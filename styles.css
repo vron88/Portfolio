@@ -1,0 +1,97 @@
+
+.jumbotron {
+	margin: 0em !important;
+	text-align: center;
+	background-image: url(Images/Whispy.jpg);
+	background-size: cover;
+	padding: 0px;
+	font-family: 'Archivo Narrow', sans-serif;
+	background-attachment: fixed;
+    background-position:  center;
+
+}
+
+.jumbotron h1{
+	font-family: 'Barrio', cursive;
+	font-size: 3.5em;
+	animation-name: bounce;
+	animation-duration: 3s;
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+.Blurb1{
+	background-color: #F5F5F5;
+	background-size: contain;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.250em;
+	color: #449BB8;
+	margin-bottom: 0em !important;
+	}
+
+.img-responsive {
+	width: 10%;
+	margin: 0 auto;
+	}
+
+.round-button {
+    display:block;
+    width:400px;
+    height:400px;
+    margin: auto;
+    background-image: url(Images/Us.jpg); 
+    background-position: center;
+    line-height:50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#2BF9FC;
+    text-align:center;
+    text-decoration:none;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.col-md-4 {
+	display: inline-block;
+	background-color: #F5F5F5;
+	height: 80px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	vertical-align: center;
+}
+
+.round-button:hover {
+    background-image: url(Images/Us.jpg);
+    opacity: .5;
+}
+
+footer {
+	background-color: #90C3D4;	
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	float: right;
+}
+
+footer p {
+	float: left;
+	padding: 2%;
+}
+
+footer a, footer p {
+	color: #fff;
+	vertical-align: middle;
+}
+
